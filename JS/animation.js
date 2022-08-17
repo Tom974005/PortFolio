@@ -62,9 +62,11 @@ function float() {
       open.target.style.opacity = "1";
       open.target.style.transitionDuration = "0.9s";
       open.target.style.marginLeft = "0px";
+      open.target.style.boxShadow = "2px 2px 2px black";
 
       asideQualif.addEventListener("mouseleave", (cache) => {
-        cache.target.style.marginLeft = "-32.4em";
+        cache.target.style.marginLeft = "-31.7em";
+        cache.target.style.boxShadow = "none";
         cache.target.style.opacity = "0.1";
       });
     });
@@ -76,10 +78,12 @@ function float() {
       open.target.style.transitionDuration = "0.5s";
       open.target.style.backgroundColor = "#aecce5";
       open.target.style.opacity = "1";
+      open.target.style.boxShadow = "-3px 3px 2px black";
 
       asideDiplome.addEventListener("mouseleave", (cache) => {
-        cache.target.style.right = "-8em";
+        cache.target.style.right = "-7.9em";
         cache.target.style.opacity = "0.1";
+        cache.target.style.boxShadow = "none";
       });
     });
   } else if (largeur >= 480 && largeur < 780) {
@@ -88,10 +92,13 @@ function float() {
       o.target.style.backgroundColor = "#aecce5";
       o.target.style.transitionDuration = "0.9s";
       o.target.style.opacity = "1";
+      o.target.style.boxShadow = "2px 2px 2px black";
 
       asideQualif.addEventListener("mouseleave", (c) => {
-        c.target.style.marginLeft = "-35.5em";
-        c.target.style.opacity = "0.3";
+        c.target.style.marginLeft = "-34.7em";
+        c.target.style.opacity = "0.2";
+        c.target.style.backgroundColor = "none";
+        c.target.style.boxShadow = "none";
       });
     });
 
@@ -100,10 +107,12 @@ function float() {
       o.target.style.opacity = "1";
       o.target.style.transitionDuration = "0.5s";
       o.target.style.backgroundColor = "#aecce5";
+      o.target.style.boxShadow = "-3px 3px 2px black";
 
       asideDiplome.addEventListener("mouseleave", (c) => {
-        c.target.style.right = "-8.3em";
+        c.target.style.right = "-8.5em";
         c.target.style.opacity = "0.2";
+        c.target.style.boxShadow = "none";
       });
     });
   } else if (largeur >= 780 && largeur < 1800) {
@@ -143,31 +152,37 @@ float();
 function shadowEffect() {
   divAdresse.addEventListener("mouseenter", (z) => {
     // z.target.style.transitionDuration = "2s";
-    z.target.style.transitionDuration = "1s";
+    z.target.style.transitionDuration = "0.3s";
+    z.target.style.transitionDelay = "0.3s";
     z.target.style.boxShadow = "4px 4px 3px rgba(196, 23, 61, 0.966)";
 
     divAdresse.addEventListener("mouseleave", () => {
-      z.target.style.transitionDuration = "0.7s";
+      // z.target.style.transitionDuration = "0.7s";
+      z.target.style.transitionDelay = "0.3s";
       z.target.style.boxShadow = "3px 3px 3px rgb(92, 73, 73)";
     });
   });
 
   divMail.addEventListener("mouseenter", (z) => {
-    z.target.style.transitionDuration = "1s";
+    z.target.style.transitionDuration = "0.3s";
+    z.target.style.transitionDelay = "0.3s";
     z.target.style.boxShadow = "4px 4px 3px rgba(196, 23, 61, 0.966)";
 
     divMail.addEventListener("mouseleave", () => {
-      z.target.style.transitionDuration = "0.7s";
+      // z.target.style.transitionDuration = "0.7s";
+      z.target.style.transitionDelay = "0.3s";
       z.target.style.boxShadow = "3px 3px 3px rgb(92, 73, 73)";
     });
   });
 
   divTel.addEventListener("mouseenter", (z) => {
-    z.target.style.transitionDuration = "1s";
+    z.target.style.transitionDuration = "0.3s";
+    z.target.style.transitionDelay = "0.3s";
     z.target.style.boxShadow = "4px 4px 3px rgba(196, 23, 61, 0.966)";
 
     divTel.addEventListener("mouseleave", () => {
-      z.target.style.transitionDuration = "0.7s";
+      // z.target.style.transitionDuration = "0.7s";
+      z.target.style.transitionDelay = "0.3s";
       z.target.style.boxShadow = "3px 3px 3px rgb(92, 73, 73)";
     });
   });

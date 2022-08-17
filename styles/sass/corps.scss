@@ -280,14 +280,14 @@
 
         #container-qualif {
             border: 1px solid black;
-            box-shadow: 2px 2px 2px black;
+            // box-shadow: 2px 2px 2px black;
             width: auto;
             padding: 5px;
             height: auto;
             border-radius: 15px;
-            margin-left: -32.4em;
+            margin-left: -31.7em;
             margin-bottom: 10px;
-            opacity: 0.5;
+            opacity: 0.1;
             position: fixed;
             top: 10em;
             display: flex; 
@@ -308,7 +308,7 @@
 
                 .liste-qualif1 {
                     // border: 2px solid honeydew;
-                    margin: 5px;
+                    margin: 0;
                     width: auto;
                     height: 100px;
                     display: flex;
@@ -320,9 +320,10 @@
 
                 .liste-qualif2 {
                     // border: 2px solid purple;
-                    margin: 5px;
+                    margin: 0;
                     width: auto;
-                    height: 150px;
+                    height: 130px;
+                    // line-height: 1;
                     display: flex;
                     flex-direction: column;
                     justify-content: space-around;
@@ -334,8 +335,8 @@
         }
 
         #container-diplome {
-            border: 1px solid violet;
-            box-shadow: -3px 3px 2px black;
+            border: 1px solid black;
+            // box-shadow: -3px 3px 2px black;
             position: fixed;
             display: flex;
             flex-direction: column;
@@ -345,9 +346,9 @@
             padding: 5px;
             width: auto;
             height: auto;
-            right: -8.3em;
+            right: -7.9em;
             text-align: right;
-            opacity: 0.5;
+            opacity: 0.1;
             
             #diplôme {
                 margin: 0;
@@ -645,12 +646,12 @@
 
         #container-qualif {
             border: 1px solid black;
-            box-shadow: 2px 2px 2px black;
+            // box-shadow: 2px 2px 2px black;
             width: auto;
             padding: 5px;
             height: auto;
             border-radius: 15px;
-            margin-left: -35.5em;
+            margin-left: -34.8em;
             margin-bottom: 10px;
             opacity: 0.5;
             position: fixed;
@@ -668,7 +669,7 @@
 
                 .liste-qualif1 {
                     // border: 2px solid honeydew;
-                    margin: 5px;
+                    margin: 0;
                     width: auto;
                     height: 100px;
                     display: flex;
@@ -680,9 +681,10 @@
 
                 .liste-qualif2 {
                     // border: 2px solid purple;
-                    margin: 5px;
+                    margin: 0;
                     width: auto;
-                    height: 150px;
+                    height: 130px;
+                    line-height: 2;
                     display: flex;
                     flex-direction: column;
                     justify-content: space-around;
@@ -694,19 +696,19 @@
 
         #container-diplome {
             border: 1px solid violet;
-            box-shadow: -3px 3px 2px black;
+            // box-shadow: -3px 3px 2px black;
             position: fixed;
             display: flex;
             flex-direction: column;
             top: 33em;
             border-radius: 15px;
             margin: 0;
-            padding: 5px;
+            // padding: 5px;
             width: auto;
             height: auto;
-            right: -8.3em;
+            right: -8.5em;
             text-align: right;
-            opacity: 0.5;
+            opacity: 0.4;
             word-wrap: break-word;
             
             #diplôme {
@@ -717,6 +719,7 @@
             }
 
             p {
+                margin: 10px;
                 width: 8em;
                 color: white;
                 text-shadow: 1px 1px 1px black;
@@ -944,15 +947,19 @@
             .liste-qualif1 {
                 // border: 2px solid yellow;
                 line-height: 2.3;
-                height: 5em;
+                // height: 5em;
                 margin-bottom: 0px;
+                color: white;
+                text-shadow: 1px 1px 1px black;
             }
 
             .liste-qualif2 {
                 margin-top: 0px;
                 // border: 2px solid fuchsia;
-                height: 7em;
+                // height: 7em;
                 line-height: 1.8;
+                color: white;
+                text-shadow: 1px 1px 1px black;
             }
         }
 
