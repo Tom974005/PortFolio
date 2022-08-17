@@ -1,0 +1,773 @@
+@charset "UTF-8";
+@media all and (min-width: 280px) and (max-width: 480px) {
+  body {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    height: auto;
+    font-family: arial;
+    background: radial-gradient(#81e05c, rgb(45, 92, 185));
+  }
+  body #coordonnées {
+    font-size: 25px;
+    color: #0a1ced;
+    text-align: center;
+    text-shadow: 1px 2px 2px black;
+  }
+  body .container-coord {
+    display: flex;
+    flex-direction: column;
+    height: 30em;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5px;
+  }
+  body .container-coord .elem {
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(238, 225, 225);
+    text-align: center;
+    padding-bottom: 5px;
+  }
+  body .container-coord #adresse {
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(92, 73, 73);
+    background-color: rgba(250, 70, 15, 0.5);
+    color: aliceblue;
+    font-style: italic;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+  }
+  body .container-coord #mail {
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(92, 73, 73);
+    background-color: rgba(102, 136, 48, 0.178);
+    color: aliceblue;
+    font-style: italic;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+    width: 14em;
+  }
+  body .container-coord #tel {
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(92, 73, 73);
+    background-color: rgba(156, 3, 118, 0.281);
+    color: aliceblue;
+    font-style: italic;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+    width: 11em;
+  }
+  body .container-coord figure {
+    border: 1px solid rgba(147, 243, 4, 0.205);
+    border-radius: 10px;
+    margin: auto;
+  }
+  body .container-coord figure a img {
+    border-radius: 10px;
+    height: 65px;
+    width: 160px;
+  }
+  body .container-coord figure p {
+    margin: 0;
+    text-align: center;
+  }
+  body .container-a-propos {
+    padding: 5px 10px;
+  }
+  body .container-a-propos #a-propos {
+    font-size: 25px;
+    text-shadow: 1px 2px 2px black;
+    color: #0a1ced;
+    text-align: center;
+  }
+  body .container-a-propos p {
+    text-align: justify;
+    text-shadow: 1px 1px 1px rgba(243, 243, 239, 0.993);
+  }
+  body .container-experiences {
+    padding: 5px;
+  }
+  body .container-experiences #experiences-pro {
+    font-size: 25px;
+    text-shadow: 1px 2px 2px black;
+    color: #0a1ced;
+    text-align: center;
+  }
+  body .container-experiences .experience1 {
+    display: flex;
+    flex-direction: column;
+  }
+  body .container-experiences .experience1 .title-exp1 {
+    text-align: center;
+    color: #0a1ced;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px whitesmoke;
+  }
+  body .container-experiences .experience1 .title-exp1 .info-title1 {
+    font-style: italic;
+    color: #05505a;
+    font-size: 18px;
+    opacity: 0.6;
+  }
+  body .container-experiences .experience1 .periode {
+    color: #05505a;
+    font-weight: bold;
+    text-align: center;
+  }
+  body .container-experiences .experience1 .liste-taches1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    height: 10em;
+    justify-content: space-between;
+    font-family: "Courier New";
+    text-shadow: 1px 1px 2px white;
+  }
+  body .container-experiences .experiences2 {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  body .container-experiences .experiences2 .title-exp2 {
+    text-align: center;
+    color: #0a1ced;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px whitesmoke;
+  }
+  body .container-experiences .experiences2 .title-exp2 .info-title2 {
+    font-style: italic;
+    color: #05505a;
+    font-size: 18px;
+    opacity: 0.6;
+  }
+  body .container-experiences .experiences2 .periode {
+    color: #05505a;
+    font-weight: bold;
+    text-align: center;
+  }
+  body .container-experiences .experiences2 .liste-taches2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    word-wrap: break-word;
+    font-family: "Courier New";
+    height: 15em;
+    font-size: 16px;
+    text-shadow: 1px 1px 2px white;
+  }
+  body .container-projets {
+    margin-bottom: 10px;
+  }
+  body .container-projets #projets {
+    font-size: 25px;
+    text-shadow: 1px 2px 2px black;
+    color: #0a1ced;
+    text-align: center;
+  }
+  body .container-projets .mes-projets {
+    font-family: "Courier New";
+    font-size: 18px;
+    text-shadow: 1px 1px 2px white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  body .container-projets .mes-projets .liste-proj1 {
+    display: flex;
+    flex-direction: column;
+    height: 6em;
+    justify-content: space-around;
+    margin: 5px;
+  }
+  body .container-projets .mes-projets .liste-proj1 li:nth-child(1) {
+    position: relative;
+    right: 20px;
+  }
+  body .container-projets .mes-projets .liste-proj1 li:nth-child(2) {
+    width: 7em;
+  }
+  body .container-projets .mes-projets .liste-proj1 li:nth-child(3) {
+    position: relative;
+    left: 22px;
+  }
+  body .container-projets .mes-projets .liste-proj2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 6em;
+    margin: 5px;
+  }
+  body .container-projets .mes-projets .liste-proj2 li:nth-child(1) {
+    position: relative;
+    left: 19px;
+  }
+  body .container-projets .mes-projets .liste-proj2 li:nth-child(2) {
+    position: relative;
+    right: 5px;
+  }
+  body .container-projets .mes-projets .liste-proj2 li:nth-child(3) {
+    position: relative;
+    right: 20px;
+  }
+  body #container-qualif {
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+    width: auto;
+    padding: 5px;
+    height: auto;
+    border-radius: 15px;
+    margin-left: -32.4em;
+    margin-bottom: 10px;
+    opacity: 0.5;
+    position: fixed;
+    top: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  body #container-qualif #qualif {
+    font-size: 22px;
+    text-shadow: 1px 1px 2px whitesmoke;
+    color: #0a1ced;
+    text-align: center;
+  }
+  body #container-qualif .liste-qualif1 {
+    margin: 5px;
+    width: auto;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
+  body #container-qualif .liste-qualif2 {
+    margin: 5px;
+    width: auto;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
+  body #container-diplome {
+    border: 1px solid violet;
+    box-shadow: -3px 3px 2px black;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 33em;
+    border-radius: 15px;
+    margin: 0;
+    padding: 5px;
+    width: auto;
+    height: auto;
+    right: -8.3em;
+    text-align: right;
+    opacity: 0.5;
+  }
+  body #container-diplome #diplôme {
+    margin: 0;
+    font-size: 22px;
+    text-shadow: 1px 1px 2px whitesmoke;
+    color: #0a1ced;
+  }
+  body #container-diplome p {
+    width: 8em;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
+}
+@media all and (min-width: 481px) and (max-width: 780px) {
+  body {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    border: 2px solid black;
+    background-color: blanchedalmond;
+    font-family: "sans-serif";
+  }
+  body section #coordonnées {
+    font-size: 32px;
+    color: #0a1ced;
+    text-align: center;
+    text-shadow: 1px 2px 2px black;
+  }
+  body section .container-coord {
+    display: flex;
+    flex-direction: column;
+    height: 30em;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5px;
+  }
+  body section .container-coord .elem {
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(238, 225, 225);
+    text-align: center;
+    padding-bottom: 5px;
+  }
+  body section .container-coord #adresse {
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(92, 73, 73);
+    background-color: rgba(2, 15, 73, 0.993);
+    color: aliceblue;
+    text-shadow: 1px 1px 1px black;
+    font-style: italic;
+    padding: 5px;
+    text-align: center;
+  }
+  body section .container-coord #mail {
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(92, 73, 73);
+    background-color: rgba(2, 15, 73, 0.993);
+    color: aliceblue;
+    text-shadow: 1px 1px 1px black;
+    font-style: italic;
+    padding: 5px;
+    text-align: center;
+  }
+  body section .container-coord #tel {
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(92, 73, 73);
+    background-color: rgba(2, 15, 73, 0.993);
+    color: aliceblue;
+    text-shadow: 1px 1px 1px black;
+    font-style: italic;
+    padding: 5px;
+    text-align: center;
+  }
+  body section .container-coord figure {
+    border: 1px solid rgba(206, 228, 11, 0.973);
+    width: 12em;
+    border-radius: 10px;
+    align-self: center;
+  }
+  body section .container-coord figure a img {
+    border-radius: 10px;
+    height: 65px;
+    width: 12em;
+  }
+  body section .container-coord figure p {
+    text-align: center;
+  }
+  body section .container-a-propos {
+    padding: 5px;
+  }
+  body section .container-a-propos #a-propos {
+    font-size: 32px;
+    text-shadow: 1px 2px 2px black;
+    color: #0a1ced;
+    text-align: center;
+  }
+  body section .container-a-propos p {
+    text-align: justify;
+  }
+  body section .container-experiences {
+    padding: 5px;
+  }
+  body section .container-experiences #experiences-pro {
+    font-size: 32px;
+    text-shadow: 1px 2px 2px black;
+    color: #0a1ced;
+    text-align: center;
+  }
+  body section .container-experiences .experience1 {
+    display: flex;
+    flex-direction: column;
+  }
+  body section .container-experiences .experience1 .title-exp1 {
+    text-align: center;
+    color: #0a1ced;
+    font-size: 20px;
+  }
+  body section .container-experiences .experience1 .title-exp1 .info-title1 {
+    font-style: italic;
+    color: #05505a;
+    font-size: 17px;
+    opacity: 0.6;
+    font-weight: normal;
+  }
+  body section .container-experiences .experience1 .periode {
+    color: #05505a;
+    font-weight: bold;
+    text-align: center;
+  }
+  body section .container-experiences .experience1 .liste-taches1 {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-size: 16px;
+    height: 10em;
+    width: auto;
+    justify-content: space-around;
+    font-family: "Courier New";
+  }
+  body section .container-experiences .experiences2 {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  body section .container-experiences .experiences2 .title-exp2 {
+    text-align: center;
+    color: #0a1ced;
+    font-size: 20px;
+  }
+  body section .container-experiences .experiences2 .title-exp2 .info-title2 {
+    font-style: italic;
+    color: #05505a;
+    font-size: 17px;
+    opacity: 0.6;
+    font-weight: normal;
+  }
+  body section .container-experiences .experiences2 .periode {
+    color: #05505a;
+    font-weight: bold;
+    text-align: center;
+  }
+  body section .container-experiences .experiences2 .liste-taches2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-self: center;
+    font-family: "Courier New";
+    height: 15em;
+    width: 25em;
+    font-size: 16px;
+  }
+  body section .container-projets {
+    padding: 5px;
+  }
+  body section .container-projets #projets {
+    font-size: 25px;
+    text-shadow: 1px 2px 2px black;
+    color: #0a1ced;
+    text-align: center;
+  }
+  body section .container-projets .mes-projets {
+    font-family: "Courier New";
+    font-size: 18px;
+    text-shadow: 1px 1px 2px white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  body section .container-projets .mes-projets .liste-proj1 {
+    display: flex;
+    flex-direction: column;
+    height: 6em;
+    justify-content: space-around;
+    margin: 5px;
+  }
+  body section .container-projets .mes-projets .liste-proj1 li:nth-child(1) {
+    position: relative;
+    right: 20px;
+  }
+  body section .container-projets .mes-projets .liste-proj1 li:nth-child(2) {
+    width: 7em;
+  }
+  body section .container-projets .mes-projets .liste-proj1 li:nth-child(3) {
+    position: relative;
+    left: 22px;
+  }
+  body section .container-projets .mes-projets .liste-proj2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 6em;
+    margin: 5px;
+  }
+  body section .container-projets .mes-projets .liste-proj2 li:nth-child(1) {
+    position: relative;
+    left: 19px;
+  }
+  body section .container-projets .mes-projets .liste-proj2 li:nth-child(2) {
+    position: relative;
+    right: 5px;
+  }
+  body section .container-projets .mes-projets .liste-proj2 li:nth-child(3) {
+    position: relative;
+    right: 20px;
+  }
+  body #container-qualif {
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+    width: auto;
+    padding: 5px;
+    height: auto;
+    border-radius: 15px;
+    margin-left: -35.5em;
+    margin-bottom: 10px;
+    opacity: 0.5;
+    position: fixed;
+    top: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  body #container-qualif #qualif {
+    font-size: 22px;
+    text-shadow: 1px 1px 2px whitesmoke;
+    color: #0a1ced;
+    text-align: center;
+  }
+  body #container-qualif .liste-qualif1 {
+    margin: 5px;
+    width: auto;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
+  body #container-qualif .liste-qualif2 {
+    margin: 5px;
+    width: auto;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
+  body #container-diplome {
+    border: 1px solid violet;
+    box-shadow: -3px 3px 2px black;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 33em;
+    border-radius: 15px;
+    margin: 0;
+    padding: 5px;
+    width: auto;
+    height: auto;
+    right: -8.3em;
+    text-align: right;
+    opacity: 0.5;
+    word-wrap: break-word;
+  }
+  body #container-diplome #diplôme {
+    margin: 0;
+    font-size: 22px;
+    text-shadow: 1px 1px 2px whitesmoke;
+    color: #0a1ced;
+  }
+  body #container-diplome p {
+    width: 8em;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
+}
+@media all and (min-width: 781px) and (max-width: 1700px) {
+  body {
+    border: 2px solid turquoise;
+    margin: 0;
+    padding: 0;
+  }
+  body section {
+    border: 2px solid grey;
+  }
+  body section #coordonnées {
+    font-size: 40px;
+    color: #0a1ced;
+    text-align: center;
+    text-shadow: 1px 2px 2px black;
+  }
+  body section .container-coord {
+    height: 20em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 20px;
+  }
+  body section .container-coord .elem {
+    font-weight: bold;
+    text-align: center;
+  }
+  body section .container-coord #adresse {
+    margin: auto;
+    border-radius: 10px;
+    width: 17em;
+  }
+  body section .container-coord #mail {
+    margin: auto;
+    border-radius: 10px;
+    width: 17em;
+  }
+  body section .container-coord #tel {
+    margin: auto;
+    border-radius: 10px;
+    width: 17em;
+  }
+  body section figure {
+    height: 9.5em;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  body section figure img {
+    height: 90px;
+    border-radius: 10px;
+  }
+  body section .container-a-propos #a-propos {
+    font-size: 40px;
+    text-shadow: 1px 2px 2px black;
+    color: #0a1ced;
+    text-align: center;
+  }
+  body section .container-a-propos p {
+    text-align: justify;
+    padding: 10px;
+  }
+  body section .container-experiences #experiences-pro {
+    font-size: 40px;
+    text-shadow: 1px 2px 2px black;
+    color: #0a1ced;
+    text-align: center;
+  }
+  body section .container-experiences .experience1 {
+    display: flex;
+    flex-direction: column;
+  }
+  body section .container-experiences .experience1 .title-exp1 {
+    text-align: center;
+    color: #0a1ced;
+    font-size: 30px;
+  }
+  body section .container-experiences .experience1 .title-exp1 .info-title1 {
+    font-style: italic;
+    color: #05505a;
+    font-size: 22px;
+    opacity: 0.8;
+    font-weight: normal;
+  }
+  body section .container-experiences .experience1 .liste-taches1 {
+    align-self: center;
+    font-size: 22px;
+    height: 6em;
+    line-height: 2;
+  }
+  body section .container-experiences .experiences2 {
+    display: flex;
+    flex-direction: column;
+  }
+  body section .container-experiences .experiences2 .title-exp2 {
+    text-align: center;
+    color: #0a1ced;
+    font-size: 30px;
+  }
+  body section .container-experiences .experiences2 .title-exp2 .info-title2 {
+    font-style: italic;
+    color: #05505a;
+    font-size: 22px;
+    opacity: 0.8;
+    font-weight: normal;
+  }
+  body section .container-experiences .experiences2 .liste-taches2 {
+    align-self: center;
+    font-size: 22px;
+    height: 8em;
+    line-height: 2;
+  }
+  body section .container-experiences .periode {
+    text-align: center;
+    font-style: italic;
+    color: #05505a;
+    font-size: 17px;
+    opacity: 0.6;
+    font-weight: normal;
+  }
+  body section .container-projets {
+    font-size: 20px;
+  }
+  body section .container-projets #projets {
+    font-size: 40px;
+    text-shadow: 1px 2px 2px black;
+    color: #0a1ced;
+    text-align: center;
+  }
+  body section .container-projets .mes-projets {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  body section .container-projets .mes-projets .liste-proj1 {
+    width: 11em;
+    height: 8em;
+    line-height: 2.5;
+  }
+  body section .container-projets .mes-projets .liste-proj2 {
+    height: 8em;
+    width: 8em;
+    line-height: 2.5;
+  }
+  body #container-qualif {
+    border: 0.5px solid #ad6868;
+    border-radius: 20px;
+    width: 30em;
+    opacity: 0.4;
+    font-size: 22px;
+    height: 17em;
+    word-wrap: break-word;
+    margin-left: -29.8em;
+    position: fixed;
+    top: 10em;
+  }
+  body #container-qualif #qualif {
+    font-size: 30px;
+    color: #0a1ced;
+    text-align: center;
+  }
+  body #container-qualif .liste-qualif1 {
+    line-height: 2.3;
+    height: 5em;
+    margin-bottom: 0px;
+  }
+  body #container-qualif .liste-qualif2 {
+    margin-top: 0px;
+    height: 7em;
+    line-height: 1.8;
+  }
+  body #container-diplome {
+    border: 1px solid grey;
+    position: fixed;
+    top: 38em;
+    opacity: 0.3;
+    right: -13.5em;
+    border-radius: 10px;
+    padding: 10px;
+    width: auto;
+    word-wrap: break-word;
+  }
+  body #container-diplome #diplôme {
+    font-size: 30px;
+    color: #0a1ced;
+    margin: 0;
+  }
+  body #container-diplome p {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
+}/*# sourceMappingURL=corps.css.map */

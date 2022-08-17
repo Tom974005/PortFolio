@@ -1,0 +1,217 @@
+// Toutes petites résolution de 100px à 200px de large
+
+@media all and (min-width: 100px) and (max-width: 200px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        // justify-content: space-around;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(rgb(241, 226, 207), rgba(37, 64, 116, 0.534));
+        height: auto;
+
+        header {
+            // border: 4px solid red;
+            height: 50em;
+            word-wrap: break-word;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            .container-head {
+                // border: 2px solid green;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                text-align: center;
+                margin-bottom: 20px;
+                height: 15em;
+
+                h1 {
+                    font-size: 18px;
+                    color: rgb(20, 102, 94);
+                    padding: 5px;
+                }
+
+                .titre {
+                    padding: 5px;
+                    color: rgb(76, 196, 184);
+                    text-shadow: 1px 1px 1px black;
+                    font-size: 16px;
+                }
+            }
+
+            nav {
+                // border: 2px solid black;
+                height: 20em;
+                justify-content: space-around;
+                display: flex;
+                flex-direction: column;
+                padding: 2px;
+
+                .nav {
+                    // border: 2px solid maroon;
+                    font-weight: bold;
+                    text-decoration: none;
+                    text-shadow: 2px 2px 1px yellow;
+                    word-wrap: break-word;
+                    text-align: center;
+                    font-family: 'Courier New', Courier, monospace;
+                    font-size: 15px;
+                    background: none;
+                }
+            }
+        }
+    }
+}
+
+
+
+// Résolution pour petit écran de 200px à 380px de large max 
+
+@media all and (min-width: 201px) and (max-width: 380px) {
+
+    body {
+        border: 2px solid yellow;
+        margin: 0;
+        padding: 0;
+        height: auto;
+        width: auto;
+        // flex-direction: column;
+        font-family: arial, sans-serif;
+
+        header {
+            // border: 2px solid red;
+            height: 50em;
+            display: flex;
+            flex-direction: column;
+            background: radial-gradient(#81e05c, rgb(45, 92, 185));
+            justify-content: center;
+
+            .container-head {
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+
+                h1 {
+                    font-size: 25px;
+                    color: rgb(11, 240, 217);
+                    text-align: center;
+                }
+
+                .titre {
+                    color: rgba($color: #1a0be4, $alpha: 0.7);
+                    text-shadow: 1px 1px 2px rgba(238, 238, 238, 0.699);
+                    width: auto;
+                }
+            }
+
+            nav {
+                // border: 2px solid red;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: 20em;
+                flex-direction: column;
+
+                .nav {
+                    // border: 2px solid purple;
+                    // margin: auto;
+                    background-color: bisque;
+                    border-radius: 20px;
+                    padding: 10px;
+                    box-sizing: border-box;
+                    text-shadow: none;
+                    text-decoration: none;
+                    color: rgb(36, 36, 58);
+                    font-size: 18px;
+                    font-weight: bold;
+                    width: auto;
+                    text-align: center;
+                    // display: flex;
+                    // flex-direction: column;
+                    // justify-content: space-between;
+                }
+
+            }
+        }
+    }
+}
+
+
+// Résolution moyenne allant de 381px à 780px de large
+
+@media all and (min-width: 381px) and (max-width: 780px) {
+
+    body {
+        // border: 2px solid blue;
+        width: auto;
+        height: 100em;
+        margin: 0;
+        // padding: 5px;
+        font-family: arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: linear-gradient(rgb(241, 226, 207), rgba(37, 64, 116, 0.534));
+
+        header {
+            // border: 2px solid orange;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            width: 100%;
+            // background: url('../Images/portrait_modif.png') no-repeat -20px top;
+
+            .container-head {
+                // border: 2px solid red;
+                display: flex;
+                height: 20em;
+                flex-direction: column;
+                width: 100%;
+                text-align: center;
+
+                h1 {
+                    text-align: center;
+                    font-size: 45px;
+                    color: white;
+                    text-shadow: 2px 2px 2px rgb(6, 95, 95);
+                }
+
+                .titre {
+                    font-size: 40px;
+                    margin: auto;
+                    color: white;
+                    text-shadow: 2px 2px 2px rgba(14, 72, 233, 0.959);
+                }
+            }
+
+            nav {
+                // border: 2px solid violet;
+                margin-top: 20px;
+                justify-content: space-around;
+                display: flex;
+                height: 50em;
+                font-size: 25px;
+                font-style: italic;
+                font-weight: bold;
+                flex-direction: column;
+
+                .nav {
+                    // border: 2px solid black;
+                    text-align: left;
+                    display: flex;
+                    width: auto;
+                    flex-direction: column;
+                    justify-content: center;
+                    height: 5em;
+                }
+            }
+
+        }
+
+    }
+
+}
+
